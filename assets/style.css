@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(93, 106, 110), rgb(114, 114, 125))
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
