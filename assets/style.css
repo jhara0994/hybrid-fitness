@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgb(93, 106, 110), rgb(114, 114, 125))
+    background-image: url(./pics/backgroundwood.jpeg);
+    color: white;
 }
 
 header {
@@ -16,8 +17,27 @@ header h1 {
 }
 
 nav {
-    width: 100%;
+    width: 75%;
     text-align: center;
-    margin: auto;
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-image: url(./pics/bricks.jpeg);
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-item {
+    color: white;
+}
+
+.navbar-item:hover {
+    color: red;
+}
+
+footer {
+    background-image: url(./pics/backgroundwood.jpeg);
 }
