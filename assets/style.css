@@ -34,10 +34,44 @@ nav a {
     color: white;
 }
 
-.navbar-item:hover {
-    color: red;
+main h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.definition {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#thai-badge {
+    float: left;
+    height: 175px;
+    width: 15%;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+#bjj-badge {
+    float: left;
+    height: 175px;
+    width: 15%;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+#self-defense-badge {
+    float: left;
+    height: 175px;
+    width: 15%;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 10px;
 }
 
 footer {
+    text-align: center;
     background-image: url(./pics/backgroundwood.jpeg);
 }
