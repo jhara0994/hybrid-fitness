@@ -1,3 +1,4 @@
+/* CSS for all pages */
 body {
     display: flex;
     flex-direction: column;
@@ -11,11 +12,12 @@ header {
 }
 
 header h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 800;
-    color: white;
+    color: crimson;
 }
 
+/* CSS on homepage */
 nav {
     width: 75%;
     text-align: center;
@@ -37,8 +39,15 @@ nav a {
 main h2 {
     font-size: 28px;
     font-weight: 700;
+    color: crimson;
 }
 
+#main-container {
+    margin: 0 auto;
+
+}
+
+/* CSS for arts page */
 .arts-list {
     margin-bottom: 10px;
 }
@@ -75,6 +84,38 @@ main h2 {
     padding-right: 10px;
 }
 
+/* CSS for contact us page */
+form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.contact-label {
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+
+.contact-input {
+    margin-top: 5px;
+    font-size: 18px;
+    width: 50%;
+
+}
+
+.submit-btn {
+    margin: 0 auto;
+    font-weight: 800;
+    grid-column: 1/2;
+
+}
+
+.submit-btn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+/* CSS for footer on all pages */
 footer {
     text-align: center;
     background-image: url(./pics/backgroundwood.jpeg);
