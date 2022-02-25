@@ -39,6 +39,10 @@ main h2 {
     font-weight: 700;
 }
 
+.arts-list {
+    margin-bottom: 10px;
+}
+
 .definition {
     font-size: 22px;
     margin-bottom: 10px;
@@ -54,7 +58,7 @@ main h2 {
 }
 
 #bjj-badge {
-    float: left;
+    float: right;
     height: 175px;
     width: 15%;
     margin-top: 5px;
