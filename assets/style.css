@@ -12,9 +12,14 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 800;
     color: crimson;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /* CSS on homepage */
@@ -36,18 +41,31 @@ nav a {
     color: white;
 }
 
+#main-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home-info {
+    font-size: 18px;
+}
+
+.schedule-link:hover {
+    color: yellow
+}
+
+/* CSS for arts page */
 main h2 {
     font-size: 28px;
     font-weight: 700;
     color: crimson;
 }
 
-#main-container {
-    margin: 0 auto;
-
-}
-
-/* CSS for arts page */
 .arts-list {
     margin-bottom: 10px;
 }
@@ -120,3 +138,5 @@ footer {
     text-align: center;
     background-image: url(./pics/backgroundwood.jpeg);
 }
+
+/* CSS for screen size queries */
